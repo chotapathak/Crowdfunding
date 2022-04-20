@@ -1,5 +1,5 @@
 // SPDX-License-Identifier: MIT
-import  "./OpenFund.sol";
+import  "./OpenFunds.sol";
 // import "../@openzeppelin/contracts/proxy/ERC1967/ERC1967Proxy.sol";
 // import "../@openzeppelin/contracts/access/Ownable.sol";
 import './IERC20.sol';

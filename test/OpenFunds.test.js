@@ -4,8 +4,8 @@ const { ethers } = require("ethers");
 // const { ethers } = require("hardhat");
 // const { Timestamp } = require("mongodb");
 // const CampaignFactory = require('./Campaign.json');
-const OpenFunds = require('../artifacts/contracts/OpenFund.sol/OpenFunds.json');
-const FundsContract = require('../contracts/OpenFund.sol');
+const OpenFunds = require('../artifacts/contracts/OpenFunds.sol/OpenFunds.json');
+const FundsContract = require('../contracts/OpenFunds.sol');
 
 
 // before( async () => {

@@ -25,6 +25,9 @@ describe("CampaignFactory" , async accounts => {
     // const Campaign = await hre.ethers.getContractFactory("CampaignFactory");
     const fundgol =  ethers.utils.parseUnits('0.6', 18);
     const tokenId = '8xe7f1725E7734CE288F8367e1Bb143E90bb3F0512';
+    
+    // const bytecode = output.contracts[':CampaignFactory'].bytecode;
+    
     await this.CampaignFactory.launch(999, block.timestampm ,date);
     // const campaign = await Campaign.deploy(tokenId, fundgol, 0);
     // await campaign.deployed();
