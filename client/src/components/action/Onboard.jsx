@@ -58,13 +58,13 @@ const web3Onboard = init({
   }
 })
 
-function Header() {
+function OnBoard() {
   const [{ wallet, connecting }, connect, disconnect] = useConnectWallet()
   const [{ chains, connectedChain, settingChain }, setChain] = useSetChain()
   const connectedWallets = useWallets()
   return (
     <div>
-      <button onClick={() => connect()}>
+      <button style={{color: "white", background: 'green ', padding: '6px', margin: '30px'}} onClick={() => connect()}>
         {connecting ? 'connecting' : 'connect'}
       </button>
       {wallet && (
@@ -102,4 +102,4 @@ function Header() {
   )
 }
 
-export default Header;
+export default OnBoard;

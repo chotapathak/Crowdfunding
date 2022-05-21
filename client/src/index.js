@@ -3,18 +3,10 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import Welco from '../src/components/main/index'
-// import Footer from './components/Footer';
-// import Header from './components/Onboard';
-// import App from './App'
 
 ReactDOM.render(
   <React.StrictMode>
-    <Welco />
-    {/* <App /> */}
-
-    
-    {/* <Footer /> */}
+    <App /> 
   </React.StrictMode>,
   document.getElementById('root')
 );

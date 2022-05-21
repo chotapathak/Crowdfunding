@@ -1,6 +1,6 @@
 .App {
   text-align: center;
-  background-color: aquamarine;
+  background-color: rgb(153, 193, 207);
 }
 
 .App-header {
@@ -26,7 +26,7 @@
   margin: 100px;
 }
 .NavTab {
-  background-color: #282c34;
+  background-color: #4a7daf;
 }
 .cta-button {
   padding: 15px;

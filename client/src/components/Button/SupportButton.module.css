@@ -1,19 +1,19 @@
-.Button {
+/* .Button {
     width: 80px;
     height: 40px;
     border: none;
     border-radius: 25px;
-    background-color: rgba(77, 182, 172, 1);
     outline: none;
-    color: white;
+
   }
   
   .Button:hover {
     opacity: 0.8;
     cursor: pointer;
+    color: blueviolet;
   }
-  
+
   .Button:active {
     opacity: 0.5;
-    color: white;
-  }
+    color: rgb(27, 2, 2);
+  } */
